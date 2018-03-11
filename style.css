@@ -1,0 +1,630 @@
+
+/*h1 here*/
+.name {
+	font-size: 3.5em;
+	font-family: "Times new roman", Times, serif;
+	color: pink;
+	width: 400px;
+	height: 50px;
+	padding: 0 50px 0 0;
+	margin:0 20px 10px 930px;
+}
+
+/*h2 here*/
+.secondname {
+	font-size: 1.5em;
+	font-family:"Times new roman", Times, serif;
+	color: pink;
+	width: 400px;
+	margin:5px 150px 0 1070px;
+}
+
+/*h3 here*/
+.subtitle { 
+	font-size: 40px;
+	color: pink;
+	font-style: italic;
+	padding-left: 10px;
+	margin:20px 0 20px -80px;
+}
+
+.w3html {
+	font-size: 30px;
+	font-style: italic;
+	color: orange;
+	margin: 0 40px 0 0;
+}
+
+.w3css {
+	font-size: 30px;
+	font-style: italic;
+	color: blue;
+	margin:0 40px 0 100px;
+}
+
+.w3JS {
+	font-size: 30px;
+	font-style: italic;
+	color: green;
+	margin: 0 80px 0 180px;
+}
+
+/* Hr here*/
+.line {
+	margin:5px 100px 10px -80px;
+	width: 1400px;
+    height: 10px;
+	border: 20px;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.container {
+	display: flex;
+	flex-flow: row;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+.navleft {
+	margin:40px 20px 20px 50px;
+}
+
+.box {
+	width: 120px;
+	height: 120px;
+	border-style: none;
+	margin: 100px 50px 50px 50px;
+}
+
+.blue {
+	background-color:  #02b3e4;
+}
+
+.dark {
+	background-color:  #2d3c49;
+}
+
+.grey {
+	background-color: #7d97ad;
+}
+
+.main {
+	margin: 0 10px 0 180px;
+}
+
+.left {
+	flex:1;
+}
+
+
+.container {
+  /*width: 100%*/;
+  /*height: 100%;*/
+  }
+
+
+.container1 {
+	display: flex;
+	flex-flow: row;
+	margin: 10px 10px 10px 10px ;
+}
+
+.container2 { 
+	display: flex;
+	flex-flow: column;
+	margin:20px 10px 0 0;
+}
+
+.container3 {
+	display: flex;
+	flex-flow: row ;
+	width: 300px;
+	margin-left: -40px;
+}
+
+.container4 {
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+/*The main pic */
+.hero {
+	width: 1400px;
+	height: 650px;
+	margin: 10px 10px 0 -80px;
+	padding: 0 50px 0 0;
+}
+
+/*The logo*/
+.logo {
+	width: 70px;
+	height: 70px;
+	margin: 0px 25px 0 -60px;
+}
+
+/*Html pic*/
+.html {
+	width: 350px;
+	height: 150px;
+	margin:10px 70px 20px -70px;
+}
+
+/*Css pic*/
+.css {
+ 	width: 350px;
+ 	height: 150px;
+ 	margin:10px 80px 20px 40px;
+ }
+
+/*JS pic*/
+.JS {
+	width: 350px;
+	height: 150px;
+	margin:10px 50px 20px 80px;
+}
+ 
+/********************************************Ipad********************/ /*landscape*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+
+.name {
+	width: 250px;
+    font-size: 2em;
+	margin:-30px 20px 10px 290px;
+}
+
+/*h2 here*/
+.secondname {
+	width: 250px;
+	margin:-15px 150px 0 280px;
+}
+
+.container3 {
+	width: 700px; 
+	margin: 10px 30px 10px -50px;
+}
+
+.container4 {
+	width: 100px;
+	margin:10px 10px 10px -40px;
+}
+
+.title {
+	width: 100px;
+}
+/*The logo*/
+.logo {
+	margin: -30px 25px 0 -180px;
+}
+
+/* Hr here*/
+.line {
+	margin:5px 100px 10px -180px;
+	width: 700px;
+    height: 10px;
+}
+
+/*The main pic */
+.hero {
+	width: 700px;
+	height: 350px;
+	margin: -20px 10px 0 -180px;
+}
+
+/*h3 here*/
+.subtitle { 
+	font-size: 30px;
+	margin:8px 0 10px -190px;
+}
+
+.container4 {
+	width: 200px;
+	height: 200px;
+}
+/*Html pic*/
+.html {
+	width: 200px;
+	height: 130px;
+	margin: 5px 70px 30px -150px;
+}
+
+.w3html {
+	width: 100px;
+	height: 100px;
+	font-size: 20px;
+	margin: 20px 40px 0 -240px;
+}
+
+.container5{
+    width: 200px;
+	height: 200px;	
+	margin-left: -100px;
+}
+/*Css pic*/
+.css {
+ 	width: 180px;
+ 	height: 120px;
+ 	margin:10px 80px 20px 10px;
+ }
+
+.w3css {
+	font-size: 20px;
+	margin:10px 20px 10px 40px;
+}
+
+.container6 {
+	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+}
+/*JS pic*/
+.JS {
+	width: 190px;
+	height: 140px;
+	margin:5px 50px 10px 0px;
+}	
+
+.w3JS {
+	font-size: 20px;
+	margin: 10px 10px 10px 50px;
+}
+
+.box {
+	width: 60px;
+	height: 60px;
+	border-style: none;
+	margin: 100px 50px 50px -30px;
+}
+}
+/**********************************portrait*************************/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+	
+.name {
+	font-size: 2.5em;
+	font-family: "Times new roman", Times, serif;
+	color: pink;
+	width: 260px;
+	height: 50px;
+	padding: 0 50px 0 0;
+	margin:0 20px 10px 50px;
+}
+
+/*h2 here*/
+.secondname {
+	font-size: 1.5em;
+	width: 250px;
+	margin:5px 150px 0 90px;
+}
+
+.title {
+	width: 200px;
+}
+
+/*h3 here*/
+.subtitle { 
+	font-size: 35px;
+	padding-left: 10px;
+	margin:20px 0 20px -190px;
+}
+
+.w3html {
+	font-size: 20px;
+	margin: 10px 20px 10px -180px;
+}
+
+.w3css {
+	font-size: 20px;
+	margin:10px 20px 10px -60px;
+}
+
+.w3JS {
+	font-size: 20px;
+	margin: 0px 10px 10px 10px;
+}
+
+/* Hr here*/
+.line {
+	margin:5px 100px 10px -180px;
+	width: 500px;
+    height: 10px;
+	border: 20px;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.box {
+	width: 60px;
+	height: 60px;
+	border-style: none;
+	margin: 100px 50px 50px -30px;
+}
+
+.main {
+	width: 300px;
+	margin: 0 10px 0 180px;
+}
+
+/*The main pic */
+.hero {
+	width: 500px;
+	height: 450px;
+	margin: 10px 10px 0 -180px;
+	padding: 0 50px 0 0;
+}
+
+/*The logo*/
+.logo {
+	width: 70px;
+	height: 70px;
+	margin: 0px 25px 0 -180px;
+}
+
+/*Html pic*/
+.html {
+	width: 100px;
+	height: 150px;
+	margin:20px 70px 20px -180px;
+}
+
+/*Css pic*/
+.css {
+ 	width: 100px;
+ 	height: 130px;
+ 	margin:20px 80px 20px -60px;
+ }
+
+/*JS pic*/
+.JS {
+	width: 100px;
+	height: 135px;
+	margin:17px 50px 20px 10px;
+}
+}
+
+
+/********************* Google Nexus 5 *******************//*****default:portrait*****/ 
+
+@media only screen 
+and (min-width: 360px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 3.0) {
+
+.box {
+	width: 30px;
+	height: 30px;
+	margin: -10px 50px 50px -90px;
+}
+
+.container1 {
+	width: 100px;
+}
+/*The logo*/
+.logo {
+	width: 30px;
+	height: 30px;
+	margin: -230px 25px 0 -230px;
+}
+
+.name {
+	font-size: 1.5em;
+	width: 160px;
+	height: 50px;
+	padding-right: 10px;
+	margin:-50px 20px 10px -140px;
+}
+
+/*h2 here*/
+.secondname {
+	font-size: 1em;
+	width: 160px;
+	margin:-35px 150px 0 -135px;
+}
+
+.title {
+	width: 10px;
+}
+
+.container1 {
+	width: 0;
+}
+
+/* Hr here*/
+.line {
+	margin:5px 0 10px -250px;
+	width: 290px;
+    height: 10px;
+
+}
+
+/*The main pic */
+.hero {
+	width: 290px;
+	height: 250px;
+	margin: -15px 10px 0 -250px;
+	padding: 0 50px 0 0;
+}
+
+/*h3 here*/
+.subtitle { 
+	font-size: 20px;
+	padding-left: 10px;
+	margin:5px 0 5px -260px;
+}
+
+.container3 {
+	width: 10px;
+}
+/*Html pic*/
+.html {
+	width: 50px;
+	height: 50px;
+	margin:5px 70px 20px -230px;
+}
+
+.w3html {
+	font-size: 12px;
+	margin: 10px 20px 10px -140px;
+}
+
+/*
+.container5 {
+	width: -100px;
+}
+*/
+
+/*Css pic*/
+.css {
+ 	width: 50px;
+ 	height: 50px;
+ 	margin:5px 80px 20px -170px;
+ }
+
+.w3css {
+	font-size: 12px;
+	margin:10px 20px 10px -140px;
+}
+
+.container6 {
+	width: 10px;
+}
+/*JS pic*/
+.JS {
+	width: 50px;
+	height: 50px;
+	margin:5px 50px 20px -100px;
+}
+
+.w3JS {
+	font-size: 12px;
+	margin: 0px 10px 10px -110px;
+}
+
+.main {
+	width: 0px;
+	margin: 0 10px 0 180px;
+}  
+}
+
+/********************* desktop *******************/
+@media screen and (min-width: 600px) and (max-width: 900px) {
+	
+.box {
+	width: 60px;
+	height: 60px;
+	margin: 30px 50px 50px -50px;
+}
+
+.container1 {
+	width: 400px;
+}
+/*The logo*/
+.logo {
+	width: 60px;
+	height: 60px;
+	margin: 20px 25px 0 -200px;
+}
+
+.name {
+	font-size: 3em;
+	width: 330px;
+	height: 50px;
+	padding-right: 10px;
+	margin:-10px 4px 20px 120px;
+}
+
+/*h2 here*/
+.secondname {
+	font-size: 1.5em;
+	width: 300px;
+	margin:10px 150px 0 200px;
+}
+
+.title {
+	width: 10px;
+}
+
+/* Hr here*/
+.line {
+	margin:5px 0 20px -200px;
+	width: 660px;
+    height: 10px;
+
+}
+
+/*The main pic */
+.hero {
+	width: 660px;
+	height: 600px;
+	margin: -10px 0 0 -200px;
+}
+
+/*h3 here*/
+.subtitle { 
+	font-size: 2em;
+	width: 500px;
+	padding-left: 10px;
+	margin:15px 0 5px -200px;
+}
+
+.container3 {
+	width: 10px;
+}
+/*Html pic*/
+.html {
+	width: 160px;
+	height: 160px;
+	margin:10px 70px 45px -200px;
+}
+
+.w3html {
+	font-size: 22px;
+	margin: 20px 20px 10px -220px;
+}
+
+/*
+.container5 {
+	width: -100px;
+
+}
+*/
+/*Css pic*/
+.css {
+ 	width: 160px;
+ 	height: 160px;
+ 	margin:10px 80px 20px -15px;
+ }
+
+.w3css {
+	font-size: 22px;
+	margin:10px 20px 10px 10px;
+}
+
+.container6 {
+	width: 400px;
+}
+/*JS pic*/
+.JS {
+	width: 160px;
+	height: 160px;
+	margin:5px 20px 20px 10px;
+}
+
+.w3JS {
+	width: 400px;
+	font-size: 22px;
+	margin: 0px 10px 10px 30px;
+}
+
+.main {
+	width: 0px;
+	margin: 0 10px 0 180px;
+}  
+}
+
